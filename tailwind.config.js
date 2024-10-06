@@ -18,7 +18,11 @@ module.exports = {
         '2xl': '1rem',
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hompage': "url('/src/image/Image (1).png')",
+      }
+    },
   },
   plugins: [],
 }
