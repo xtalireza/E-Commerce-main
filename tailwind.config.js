@@ -7,6 +7,7 @@ module.exports = {
       white: "#ffffff",
       cream: "#C2B4A3", 
       dark: "#1A1A1A",
+      transparent: "transparent",
     },
     container: {
       center: true,
@@ -19,9 +20,6 @@ module.exports = {
       },
     },
     extend: {
-      backgroundImage: {
-        'hompage': "url('/src/image/Image (1).png')",
-      }
     },
   },
   plugins: [],
