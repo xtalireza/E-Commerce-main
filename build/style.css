@@ -639,6 +639,9 @@ video {
 .text-center {
   text-align: center;
 }
+.font-Roboto {
+  font-family: Roboto;
+}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -650,6 +653,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-white {
   --tw-text-opacity: 1;

@@ -20,6 +20,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily:{
+        Roboto: "Roboto",
+      },
     },
   },
   plugins: [],
