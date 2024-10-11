@@ -583,29 +583,17 @@ video {
 .gap-1 {
   gap: 0.25rem;
 }
-.gap-2 {
-  gap: 0.5rem;
-}
-.gap-10 {
-  gap: 2.5rem;
-}
 .gap-14 {
   gap: 3.5rem;
 }
-.gap-7 {
-  gap: 1.75rem;
-}
-.gap-6 {
-  gap: 1.5rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 .gap-5 {
   gap: 1.25rem;
 }
-.gap-9 {
-  gap: 2.25rem;
-}
-.text-wrap {
-  text-wrap: wrap;
+.gap-6 {
+  gap: 1.5rem;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -655,49 +643,17 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-.text-\[40px\] {
-  font-size: 40px;
-}
-.text-\[45px\] {
-  font-size: 45px;
-}
-.text-\[30px\] {
-  font-size: 30px;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\] {
-  color: ;
-}
-.text-\[fo\] {
-  color: fo;
-}
-.text-\[font\] {
-  color: font;
-}
-.text-\[px\] {
-  color: px;
-}
-.text-white\/35 {
-  color: rgb(255 255 255 / 0.35);
 }
 .text-white\/30 {
   color: rgb(255 255 255 / 0.3);
