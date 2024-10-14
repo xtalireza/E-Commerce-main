@@ -12,3 +12,12 @@
 .cat-p{
     @apply text-gray text-lg;
 }
+.fasilities{
+    @apply flex flex-col items-start gap-3 py-10 border-t-2 border-dashed border-cream/25 relative cursor-pointer;
+}
+.title-fas{
+    @apply text-white text-2xl;
+}
+.p-fas{
+    @apply text-gray;
+}
