@@ -21,3 +21,6 @@
 .p-fas{
     @apply text-gray;
 }
+.step{
+    @apply px-4 pt-10 flex flex-col gap-7 border-t-2 border-dashed border-cream/25
+}
