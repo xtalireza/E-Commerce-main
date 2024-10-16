@@ -622,6 +622,9 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
+.gap-10 {
+  gap: 2.5rem;
+}
 .gap-y-5 {
   row-gap: 1.25rem;
 }
@@ -730,7 +733,7 @@ video {
   padding-bottom: 0.625rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  transition-duration: 150ms;
+  transition-duration: 300ms;
 }
 
 
