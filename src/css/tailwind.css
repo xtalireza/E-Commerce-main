@@ -4,7 +4,7 @@
 
 
 .button{
-    @apply px-5 py-2.5 rounded-lg border-2 border-dashed border-cream/25 text-white hover:opacity-15 duration-150;
+    @apply px-5 py-2.5 rounded-lg border-2 border-dashed border-cream/25 text-white hover:border hover:border-cream hover:bg-cream duration-150;
 }
 .cat-num{
     @apply flex flex-col items-center gap-1 text-white text-4xl p-5;
