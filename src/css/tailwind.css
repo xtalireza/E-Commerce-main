@@ -33,3 +33,6 @@
 .prod-btn{
     @apply flex justify-center items-center gap-2 text-white text-xl w-full py-4 bg-dark rounded-md border-2 border-dashed border-cream/10 hover:opacity-20 cursor-pointer duration-150;
 }
+.comment-div{
+    @apply w-full flex flex-col gap-6 py-7 border-t-2 border-dashed border-cream/25 px-3;
+}

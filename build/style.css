@@ -635,6 +635,9 @@ video {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
+.border {
+  border-width: 1px;
+}
 .border-y-2 {
   border-top-width: 2px;
   border-bottom-width: 2px;
@@ -663,6 +666,10 @@ video {
 .p-5 {
   padding: 1.25rem;
 }
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -682,23 +689,21 @@ video {
 .pb-5 {
   padding-bottom: 1.25rem;
 }
+.pt-12 {
+  padding-top: 3rem;
+}
 .pt-32 {
   padding-top: 8rem;
 }
 .pt-6 {
   padding-top: 1.5rem;
 }
-.pt-3 {
-  padding-top: 0.75rem;
-}
-.pt-10 {
-  padding-top: 2.5rem;
-}
-.pt-12 {
-  padding-top: 3rem;
-}
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -707,6 +712,10 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-\[27px\] {
   font-size: 27px;
@@ -718,22 +727,28 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.font-medium {
+  font-weight: 500;
 }
 .uppercase {
   text-transform: uppercase;
 }
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(129 128 126 / var(--tw-text-opacity));
+}
+.text-gray\/40 {
+  color: rgb(129 128 126 / 0.4);
+}
 .text-gray\/50 {
   color: rgb(129 128 126 / 0.5);
 }
-.text-gray\/70 {
-  color: rgb(129 128 126 / 0.7);
+.text-grey\/50 {
+  color: rgb(179 179 178 / 0.5);
 }
 .text-paleBlue {
   --tw-text-opacity: 1;
@@ -745,13 +760,6 @@ video {
 }
 .text-white\/30 {
   color: rgb(255 255 255 / 0.3);
-}
-.text-gray {
-  --tw-text-opacity: 1;
-  color: rgb(129 128 126 / var(--tw-text-opacity));
-}
-.text-gray\/40 {
-  color: rgb(129 128 126 / 0.4);
 }
 
 
@@ -881,4 +889,17 @@ video {
 }
 .prod-btn:hover {
   opacity: 0.2;
+}
+.comment-div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-top-width: 2px;
+  border-style: dashed;
+  border-color: rgb(194 180 163 / 0.25);
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
