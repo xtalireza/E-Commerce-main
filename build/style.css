@@ -651,6 +651,9 @@ video {
 .border-b {
   border-bottom-width: 1px;
 }
+.border-t-2 {
+  border-top-width: 2px;
+}
 .border-dashed {
   border-style: dashed;
 }
@@ -716,6 +719,15 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-5 {
+  padding-top: 1.25rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+.pt-7 {
+  padding-top: 1.75rem;
+}
 .text-center {
   text-align: center;
 }
@@ -744,6 +756,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-medium {
   font-weight: 500;
