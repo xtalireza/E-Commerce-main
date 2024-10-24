@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      Roboto: ["Roboto","serif"]
+    },
     colors: {
       black: "#111111",
       white: "#ffffff",
@@ -22,11 +25,7 @@ module.exports = {
         '2xl': '1rem',
       },
     },
-    extend: {
-      fontFamily:{
-        Roboto: "Roboto",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
